@@ -14,6 +14,7 @@ import ConfirmButton from './chapter_08/ConfirmButtonClass';
 import ConfirmButtonClass from './chapter_08/ConfirmButtonClass';
 import ConfirmButtonFunc from './chapter_08/ConfirmButtonFunc';
 import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -44,7 +45,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
       // <Accommodate />
       // <ConfirmButtonClass/>
       // <ConfirmButtonFunc/>
-      <LandingPage/>
+      // <LandingPage/>
+      <AttendanceBook/>
     // </React.StrictMode>
   );
 
