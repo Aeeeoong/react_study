@@ -55,7 +55,7 @@ function AttendanceBook(props) {
             </select>
             <ul>
                 {sortedItem.map((student) => {
-                    return <li key={student.id}>{student.name}</li>
+                    return <li key={student.id}>{student.id}</li>
                 })}
             </ul>
         </div>
